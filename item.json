@@ -53,6 +53,36 @@
           }
         },
         {
+          "id": "iqb_esnas_process",
+          "label": [
+            {
+              "lang": "de",
+              "value": "ESNaS kognitiver Prozess"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v29/ep/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_esnas_complexity",
+          "label": [
+            {
+              "lang": "de",
+              "value": "ESNaS Komplexität"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v29/ek/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
           "id": "iqb_requirement_area",
           "label": [
             {

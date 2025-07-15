@@ -46,14 +46,14 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.jso
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | PSE erforderlich | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | iqb_pse |
-| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ns/) | url: 'https://w3id.org/iqb/v27/ns/', Einmalauswahl, Nummerierung unterdrückt | iqb_itemformat |
+| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ns/) | url: 'https://w3id.org/iqb/v27/ns/', Einmalauswahl, Nummerierung unterdrückt | iqb_item_format |
 | ESNaS kognitiver Prozess | [Vokabular](https://w3id.org/iqb/v29/ep/) | url: 'https://w3id.org/iqb/v29/ep/', Einmalauswahl, Nummerierung unterdrückt | iqb_esnas_process |
 | ESNaS Komplexität | [Vokabular](https://w3id.org/iqb/v29/ek/) | url: 'https://w3id.org/iqb/v29/ek/', Einmalauswahl, Nummerierung unterdrückt | iqb_esnas_complexity |
 | Anforderungsbereich | [Vokabular](https://w3id.org/iqb/v41/a1/) | url: 'https://w3id.org/iqb/v41/a1/', Einmalauswahl, Nummerierung unterdrückt | iqb_requirement_area |
 | Bildungsstandard MSA | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Mehrfachauswahl | iqb_standards_msa |
 | Basiskonzept | [Vokabular](https://w3id.org/iqb/v41/b1/) | url: 'https://w3id.org/iqb/v41/b1/', Mehrfachauswahl | iqb_basic_concept |
-| Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: 'https://w3id.org/iqb/v41/i1/', Mehrfachauswahl | iqb_content |
+| Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: 'https://w3id.org/iqb/v41/i1/', Mehrfachauswahl | iqb_content_aspect |
 | Itemzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
-| Geschätzte Schwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl | iqb_complexity |
+| Geschätzte Schwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl | iqb_exante_difficulty |
 | Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: 'https://w3id.org/iqb/v27/ti/', Mehrfachauswahl | iqb_itemtech |
 

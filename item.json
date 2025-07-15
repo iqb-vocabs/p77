@@ -38,7 +38,7 @@
           }
         },
         {
-          "id": "iqb_itemformat",
+          "id": "iqb_item_format",
           "label": [
             {
               "lang": "de",
@@ -126,7 +126,7 @@
           }
         },
         {
-          "id": "iqb_content",
+          "id": "iqb_content_aspect",
           "label": [
             {
               "lang": "de",
@@ -155,7 +155,7 @@
           }
         },
         {
-          "id": "iqb_complexity",
+          "id": "iqb_exante_difficulty",
           "label": [
             {
               "lang": "de",

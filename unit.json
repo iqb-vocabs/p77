@@ -96,7 +96,7 @@
           }
         },
         {
-          "id": "iqb_source",
+          "id": "iqb_additional_info",
           "label": [
             {
               "lang": "de",
@@ -109,7 +109,7 @@
           }
         },
         {
-          "id": "iqb_time_instruction",
+          "id": "iqb_time_instructions",
           "label": [
             {
               "lang": "de",

@@ -1,0 +1,134 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.json",
+  "label": [{
+    "lang": "de",
+    "value": "IQB Chemie Sek I - Item"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Item"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_itemformat",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Itemformat"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v27/ns/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_requirement_area",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anforderungsbereich"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v41/a1/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_standards_msa",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Bildungsstandard MSA"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v41/k1/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_basic_concept",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Basiskonzept"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v41/b1/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_content",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Verbindlicher inhaltlicher Aspekt"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v41/i1/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_time_item",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Itemzeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_complexity",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Geschätzte Schwierigkeit"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v26/ea/",
+            "allowMultipleValues": false
+          }
+        },
+        {
+          "id": "iqb_itemtech",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Technische Besonderheiten der Antwortoptionen"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v27/ti/",
+            "allowMultipleValues": true
+          }
+        }
+      ]
+    }
+  ]
+}

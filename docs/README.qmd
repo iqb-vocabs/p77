@@ -1,0 +1,66 @@
+---
+title: Metadatenprofile für Testaufgaben - Chemie Sek I
+---
+
+ID of profile-store: `chs1`
+
+Publisher: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
+
+2 Profile definiert:
+
+# IQB Chemie Sek I - Aufgabe
+
+ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.json`
+
+## Stimulus
+
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Entwickler:in | Text | Einzeilig, Sprache(n): de   | iqb_author |
+| Für SPF geeignet | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | iqb_spf |
+| Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Nummerierung unterdrückt | iqb_phones |
+| Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Einmalauswahl, Zeige nur erste Ebene, Nummerierung unterdrückt | iqb_competence |
+| Medien (Stimulus) | [Vokabular](https://w3id.org/iqb/v29/me/) | url: 'https://w3id.org/iqb/v29/me/', Mehrfachauswahl | iqb_media |
+| Angaben zum Urtext und zu Inspirationsquellen | Text | Mehrzeilig, Sprache(n): de   | iqb_source |
+| Instruktionszeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_instruction |
+| Stimuluszeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
+| Aufgabenzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
+| Notizfeld | Text | Mehrzeilig, Sprache(n): de   | iqb_note_field |
+| Unverträgliche Aufgaben | Text | Einzeilig, Sprache(n): de   | iqb_compatibility |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Quellenangabe Stimulustext
+
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Art der Quelle(n) | [Vokabular](https://w3id.org/iqb/v28/aq/) | url: 'https://w3id.org/iqb/v28/aq/', Einmalauswahl | iqb_type_source |
+| Vollständige Quellenangabe (Text) | Text | Mehrzeilig, Sprache(n): de   | iqb_copyright |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+## Hörsequenz/Video Stimulus
+
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Transkript | Text | Mehrzeilig, Sprache(n): de   | iqb_transcript |
+
+: {tbl-colwidths="[15,15,55,15]"}
+
+# IQB Chemie Sek I - Item
+
+ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.json`
+
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ns/) | url: 'https://w3id.org/iqb/v27/ns/', Einmalauswahl, Nummerierung unterdrückt | iqb_itemformat |
+| Anforderungsbereich | [Vokabular](https://w3id.org/iqb/v41/a1/) | url: 'https://w3id.org/iqb/v41/a1/', Einmalauswahl, Nummerierung unterdrückt | iqb_requirement_area |
+| Bildungsstandard MSA | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Mehrfachauswahl | iqb_standards_msa |
+| Basiskonzept | [Vokabular](https://w3id.org/iqb/v41/b1/) | url: 'https://w3id.org/iqb/v41/b1/', Mehrfachauswahl | iqb_basic_concept |
+| Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: 'https://w3id.org/iqb/v41/i1/', Mehrfachauswahl | iqb_content |
+| Itemzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
+| Geschätzte Schwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl | iqb_complexity |
+| Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: 'https://w3id.org/iqb/v27/ti/', Mehrfachauswahl | iqb_itemtech |
+
+: {tbl-colwidths="[15,15,55,15]"}
+

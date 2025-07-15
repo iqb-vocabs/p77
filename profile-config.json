@@ -1,0 +1,14 @@
+{
+  "id": "chs1",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Metadatenprofile für Testaufgaben: Chemie Sek I"
+    }
+  ],
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "profiles": [
+    "unit.json",
+    "item.json"
+  ]
+}

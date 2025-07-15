@@ -1,0 +1,245 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.json",
+  "label": [{
+    "lang": "de",
+    "value": "IQB Chemie Sek I - Aufgabe"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Stimulus"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_author",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Entwickler:in"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "iqb_spf",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Für SPF geeignet"
+            }
+          ],
+          "type": "boolean",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        },
+        {
+          "id": "iqb_phones",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kopfhörereinsatz"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v24/kh/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+         {
+          "id": "iqb_competence",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kompetenzbereich"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v41/k1/",
+            "allowMultipleValues": false,
+            "hideNumbering": true,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_media",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Medien (Stimulus)"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v29/me/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_source",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Angaben zum Urtext und zu Inspirationsquellen"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_time_instruction",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Instruktionszeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+         {
+          "id": "iqb_time_stimulus",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Stimuluszeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_note_field",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Notizfeld"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_compatibility",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Unverträgliche Aufgaben"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        }
+      ]
+    },
+     {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Quellenangabe Stimulustext"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_type_source",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Art der Quelle(n)"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v28/aq/",
+            "allowMultipleValues": false
+          }
+        },
+         {
+          "id": "iqb_copyright",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vollständige Quellenangabe (Text)"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Hörsequenz/Video Stimulus"
+        }
+      ],
+      "entries": [
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transkript"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }
+      ]
+    }
+  ]
+}

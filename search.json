@@ -11,14 +11,14 @@
     "href": "index.html#stimulus",
     "title": "Metadatenprofile für Testaufgaben - Chemie Sek I",
     "section": "Stimulus",
-    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nEntwickler:in\nText\nEinzeilig, Sprache(n): de\niqb_author\n\n\nFür SPF geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\niqb_spf\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Nummerierung unterdrückt\niqb_phones\n\n\nKompetenzbereich\nVokabular\nurl: ‘https://w3id.org/iqb/v41/k1/’, Einmalauswahl, Zeige nur erste Ebene, Nummerierung unterdrückt\niqb_competence\n\n\nMedien (Stimulus)\nVokabular\nurl: ‘https://w3id.org/iqb/v29/me/’, Mehrfachauswahl\niqb_media\n\n\nAngaben zum Urtext und zu Inspirationsquellen\nText\nMehrzeilig, Sprache(n): de\niqb_additional_info\n\n\nInstruktionszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_instructions\n\n\nStimuluszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nNotizfeld\nText\nMehrzeilig, Sprache(n): de\niqb_note_field\n\n\nUnverträgliche Aufgaben\nText\nEinzeilig, Sprache(n): de\niqb_compatibility"
+    "text": "Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nEntwickler:in\nText\nEinzeilig, Sprache(n): de\niqb_author\n\n\nFür SPF geeignet\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\niqb_spf\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\niqb_phones\n\n\nKompetenzbereich\nVokabular\nurl: ‘https://w3id.org/iqb/v41/k1/’, Einmalauswahl, Zeige nur erste Ebene, Dialogbox, Nummerierung unterdrückt\niqb_competence\n\n\nMedien (Stimulus)\nVokabular\nurl: ‘https://w3id.org/iqb/v29/me/’, Mehrfachauswahl, Dialogbox\niqb_media\n\n\nAngaben zum Urtext und zu Inspirationsquellen\nText\nMehrzeilig, Sprache(n): de\niqb_additional_info\n\n\nInstruktionszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_instructions\n\n\nStimuluszeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_stimulus\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nNotizfeld\nText\nMehrzeilig, Sprache(n): de\niqb_note_field\n\n\nUnverträgliche Aufgaben\nText\nEinzeilig, Sprache(n): de\niqb_compatibility"
   },
   {
     "objectID": "index.html#quellenangabe-stimulustext",
     "href": "index.html#quellenangabe-stimulustext",
     "title": "Metadatenprofile für Testaufgaben - Chemie Sek I",
     "section": "Quellenangabe Stimulustext",
-    "text": "Quellenangabe Stimulustext\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nArt der Quelle(n)\nVokabular\nurl: ‘https://w3id.org/iqb/v28/aq/’, Einmalauswahl\niqb_type_source\n\n\nVollständige Quellenangabe (Text)\nText\nMehrzeilig, Sprache(n): de\niqb_copyright"
+    "text": "Quellenangabe Stimulustext\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nArt der Quelle(n)\nVokabular\nurl: ‘https://w3id.org/iqb/v28/aq/’, Einmalauswahl, Dialogbox\niqb_type_source\n\n\nVollständige Quellenangabe (Text)\nText\nMehrzeilig, Sprache(n): de\niqb_copyright"
   },
   {
     "objectID": "index.html#hörsequenzvideo-stimulus",
@@ -26,5 +26,12 @@
     "title": "Metadatenprofile für Testaufgaben - Chemie Sek I",
     "section": "Hörsequenz/Video Stimulus",
     "text": "Hörsequenz/Video Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nTranskript\nText\nMehrzeilig, Sprache(n): de\niqb_transcript"
+  },
+  {
+    "objectID": "docs/changelog.html",
+    "href": "docs/changelog.html",
+    "title": "",
+    "section": "",
+    "text": "Änderung von Version 0.0.0 auf Version 0.1.0"
   }
 ]

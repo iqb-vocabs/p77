@@ -16,9 +16,9 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.jso
 | :--- | :---: | :--- | :---: |
 | Entwickler:in | Text | Einzeilig, Sprache(n): de   | iqb_author |
 | Für SPF geeignet | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | iqb_spf |
-| Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Nummerierung unterdrückt | iqb_phones |
-| Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Einmalauswahl, Zeige nur erste Ebene, Nummerierung unterdrückt | iqb_competence |
-| Medien (Stimulus) | [Vokabular](https://w3id.org/iqb/v29/me/) | url: 'https://w3id.org/iqb/v29/me/', Mehrfachauswahl | iqb_media |
+| Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_phones |
+| Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Einmalauswahl, Zeige nur erste Ebene, Dialogbox, Nummerierung unterdrückt | iqb_competence |
+| Medien (Stimulus) | [Vokabular](https://w3id.org/iqb/v29/me/) | url: 'https://w3id.org/iqb/v29/me/', Mehrfachauswahl, Dialogbox | iqb_media |
 | Angaben zum Urtext und zu Inspirationsquellen | Text | Mehrzeilig, Sprache(n): de   | iqb_additional_info |
 | Instruktionszeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_instructions |
 | Stimuluszeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
@@ -30,7 +30,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.jso
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
-| Art der Quelle(n) | [Vokabular](https://w3id.org/iqb/v28/aq/) | url: 'https://w3id.org/iqb/v28/aq/', Einmalauswahl | iqb_type_source |
+| Art der Quelle(n) | [Vokabular](https://w3id.org/iqb/v28/aq/) | url: 'https://w3id.org/iqb/v28/aq/', Einmalauswahl, Dialogbox | iqb_type_source |
 | Vollständige Quellenangabe (Text) | Text | Mehrzeilig, Sprache(n): de   | iqb_copyright |
 
 ### Hörsequenz/Video Stimulus
@@ -46,14 +46,14 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.jso
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | PSE erforderlich | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | iqb_pse |
-| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ns/) | url: 'https://w3id.org/iqb/v27/ns/', Einmalauswahl, Nummerierung unterdrückt | iqb_item_format |
-| ESNaS kognitiver Prozess | [Vokabular](https://w3id.org/iqb/v29/ep/) | url: 'https://w3id.org/iqb/v29/ep/', Einmalauswahl, Nummerierung unterdrückt | iqb_esnas_process |
-| ESNaS Komplexität | [Vokabular](https://w3id.org/iqb/v29/ek/) | url: 'https://w3id.org/iqb/v29/ek/', Einmalauswahl, Nummerierung unterdrückt | iqb_esnas_complexity |
-| Anforderungsbereich | [Vokabular](https://w3id.org/iqb/v41/a1/) | url: 'https://w3id.org/iqb/v41/a1/', Einmalauswahl, Nummerierung unterdrückt | iqb_requirement_area |
-| Bildungsstandard MSA | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Mehrfachauswahl | iqb_standards_msa |
-| Basiskonzept | [Vokabular](https://w3id.org/iqb/v41/b1/) | url: 'https://w3id.org/iqb/v41/b1/', Mehrfachauswahl | iqb_basic_concept |
-| Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: 'https://w3id.org/iqb/v41/i1/', Mehrfachauswahl | iqb_content_aspect |
+| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ns/) | url: 'https://w3id.org/iqb/v27/ns/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_item_format |
+| ESNaS kognitiver Prozess | [Vokabular](https://w3id.org/iqb/v29/ep/) | url: 'https://w3id.org/iqb/v29/ep/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_esnas_process |
+| ESNaS Komplexität | [Vokabular](https://w3id.org/iqb/v29/ek/) | url: 'https://w3id.org/iqb/v29/ek/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_esnas_complexity |
+| Anforderungsbereich | [Vokabular](https://w3id.org/iqb/v41/a1/) | url: 'https://w3id.org/iqb/v41/a1/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_requirement_area |
+| Bildungsstandard MSA | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Mehrfachauswahl, Dialogbox | iqb_standards_msa |
+| Basiskonzept | [Vokabular](https://w3id.org/iqb/v41/b1/) | url: 'https://w3id.org/iqb/v41/b1/', Mehrfachauswahl, Dialogbox | iqb_basic_concept |
+| Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: 'https://w3id.org/iqb/v41/i1/', Mehrfachauswahl, Dialogbox | iqb_content_aspect |
 | Itemzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
-| Geschätzte Schwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl | iqb_exante_difficulty |
-| Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: 'https://w3id.org/iqb/v27/ti/', Mehrfachauswahl | iqb_itemtech |
+| Geschätzte Schwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl, Dialogbox | iqb_exante_difficulty |
+| Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: 'https://w3id.org/iqb/v27/ti/', Mehrfachauswahl, Dialogbox | iqb_itemtech |
 

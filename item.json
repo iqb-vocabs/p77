@@ -122,7 +122,8 @@
           "type": "vocabulary",
           "parameters": {
             "url": "https://w3id.org/iqb/v41/b1/",
-            "allowMultipleValues": true
+            "allowMultipleValues": true,
+            "maxLevel": 1
           }
         },
         {

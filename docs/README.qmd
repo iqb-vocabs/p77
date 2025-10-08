@@ -59,7 +59,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.jso
 | ESNaS Komplexität | [Vokabular](https://w3id.org/iqb/v29/ek/) | url: 'https://w3id.org/iqb/v29/ek/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_esnas_complexity |
 | Anforderungsbereich | [Vokabular](https://w3id.org/iqb/v41/a1/) | url: 'https://w3id.org/iqb/v41/a1/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_requirement_area |
 | Bildungsstandard MSA | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Mehrfachauswahl, Dialogbox | iqb_standards_msa |
-| Basiskonzept | [Vokabular](https://w3id.org/iqb/v41/b1/) | url: 'https://w3id.org/iqb/v41/b1/', Mehrfachauswahl, Dialogbox | iqb_basic_concept |
+| Basiskonzept | [Vokabular](https://w3id.org/iqb/v41/b1/) | url: 'https://w3id.org/iqb/v41/b1/', Mehrfachauswahl, Zeige nur erste Ebene, Dialogbox | iqb_basic_concept |
 | Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: 'https://w3id.org/iqb/v41/i1/', Mehrfachauswahl, Dialogbox | iqb_content_aspect |
 | Itemzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
 | Geschätzte Schwierigkeit | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl, Dialogbox | iqb_exante_difficulty |

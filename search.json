@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "docs/changelog.html",
+    "href": "docs/changelog.html",
+    "title": "",
+    "section": "",
+    "text": "Änderung von Version 0.0.0 auf Version 0.1.0"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Metadatenprofile für Testaufgaben - Chemie Sek I",
@@ -26,12 +33,5 @@
     "title": "Metadatenprofile für Testaufgaben - Chemie Sek I",
     "section": "Hörsequenz/Video Stimulus",
     "text": "Hörsequenz/Video Stimulus\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nTranskript\nText\nMehrzeilig, Sprache(n): de\niqb_transcript"
-  },
-  {
-    "objectID": "docs/changelog.html",
-    "href": "docs/changelog.html",
-    "title": "",
-    "section": "",
-    "text": "Änderung von Version 0.0.0 auf Version 0.1.0"
   }
 ]

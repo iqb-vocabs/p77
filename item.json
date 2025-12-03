@@ -83,21 +83,6 @@
           }
         },
         {
-          "id": "iqb_requirement_area",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Anforderungsbereich"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v41/a1/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
-          }
-        },
-        {
           "id": "iqb_standards_msa",
           "label": [
             {
@@ -109,21 +94,6 @@
           "parameters": {
             "url": "https://w3id.org/iqb/v41/k1/",
             "allowMultipleValues": true
-          }
-        },
-        {
-          "id": "iqb_basic_concept",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Basiskonzept"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v41/b1/",
-            "allowMultipleValues": true,
-            "maxLevel": 1
           }
         },
         {
@@ -153,20 +123,6 @@
             "minValue": 0,
             "digits": 0,
             "isPeriodSeconds": true
-          }
-        },
-        {
-          "id": "iqb_exante_difficulty",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Geschätzte Schwierigkeit"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v26/ea/",
-            "allowMultipleValues": false
           }
         },
         {

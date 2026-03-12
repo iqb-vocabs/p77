@@ -108,21 +108,6 @@
             "format": "multiline"
           }
         },
-        {
-          "id": "iqb_time_instructions",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Instruktionszeit"
-            }
-          ],
-          "type": "number",
-          "parameters": {
-            "minValue": 0,
-            "digits": 0,
-            "isPeriodSeconds": true
-          }
-        },
          {
           "id": "iqb_time_stimulus",
           "label": [

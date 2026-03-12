@@ -20,7 +20,6 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.jso
 | Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Einmalauswahl, Zeige nur erste Ebene, Dialogbox, Nummerierung unterdrückt | iqb_competence |
 | Medien (Stimulus) | [Vokabular](https://w3id.org/iqb/v29/me/) | url: 'https://w3id.org/iqb/v29/me/', Mehrfachauswahl, Dialogbox | iqb_media |
 | Angaben zum Urtext und zu Inspirationsquellen | Text | Mehrzeilig, Sprache(n): de   | iqb_additional_info |
-| Instruktionszeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_instructions |
 | Stimuluszeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
 | Aufgabenzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Notizfeld | Text | Mehrzeilig, Sprache(n): de   | iqb_note_field |

@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Chemie Sek I - Item"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Chemie Sek I - Item"
+    }
+  ],
+  "target": [
+    "ITEM"
+  ],
   "groups": [
     {
       "label": [
@@ -21,7 +26,7 @@
               "value": "PSE erforderlich"
             }
           ],
-          "type": "boolean",
+          "type": "BOOLEAN",
           "parameters": {
             "trueLabel": [
               {
@@ -45,7 +50,7 @@
               "value": "Itemformat"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v27/ns/",
             "allowMultipleValues": false,
@@ -60,7 +65,7 @@
               "value": "ESNaS kognitiver Prozess"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v29/ep/",
             "allowMultipleValues": false,
@@ -75,7 +80,7 @@
               "value": "ESNaS Komplexität"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v29/ek/",
             "allowMultipleValues": false,
@@ -90,7 +95,7 @@
               "value": "Bildungsstandard MSA"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v41/k1/",
             "allowMultipleValues": true
@@ -104,7 +109,7 @@
               "value": "Verbindlicher inhaltlicher Aspekt"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v41/i1/",
             "allowMultipleValues": true
@@ -118,7 +123,7 @@
               "value": "Itemzeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -133,7 +138,7 @@
               "value": "Technische Besonderheiten der Antwortoptionen"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v27/ti/",
             "allowMultipleValues": true

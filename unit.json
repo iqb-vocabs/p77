@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.json",
-  "label": [{
-    "lang": "de",
-    "value": "IQB Chemie Sek I - Aufgabe"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Chemie Sek I - Aufgabe"
+    }
+  ],
+  "target": [
+    "UNIT"
+  ],
   "groups": [
     {
       "label": [
@@ -21,9 +26,9 @@
               "value": "Entwickler:in"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         },
         {
@@ -34,7 +39,7 @@
               "value": "Für SPF geeignet"
             }
           ],
-          "type": "boolean",
+          "type": "BOOLEAN",
           "parameters": {
             "trueLabel": [
               {
@@ -58,14 +63,14 @@
               "value": "Kopfhörereinsatz"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v24/kh/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
         },
-         {
+        {
           "id": "iqb_competence",
           "label": [
             {
@@ -73,7 +78,7 @@
               "value": "Kompetenzbereich"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v41/k1/",
             "allowMultipleValues": false,
@@ -89,7 +94,7 @@
               "value": "Medien (Stimulus)"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v29/me/",
             "allowMultipleValues": true
@@ -103,12 +108,12 @@
               "value": "Angaben zum Urtext und zu Inspirationsquellen"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
-         {
+        {
           "id": "iqb_time_stimulus",
           "label": [
             {
@@ -116,7 +121,7 @@
               "value": "Stimuluszeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -131,7 +136,7 @@
               "value": "Aufgabenzeit"
             }
           ],
-          "type": "number",
+          "type": "NUMBER",
           "parameters": {
             "minValue": 0,
             "digits": 0,
@@ -146,9 +151,9 @@
               "value": "Notizfeld"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
         {
@@ -159,14 +164,14 @@
               "value": "Unverträgliche Aufgaben"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "single"
+            "format": "SINGLE"
           }
         }
       ]
     },
-     {
+    {
       "label": [
         {
           "lang": "de",
@@ -182,13 +187,13 @@
               "value": "Art der Quelle(n)"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v28/aq/",
             "allowMultipleValues": false
           }
         },
-         {
+        {
           "id": "iqb_copyright",
           "label": [
             {
@@ -196,9 +201,9 @@
               "value": "Vollständige Quellenangabe (Text)"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         }
       ]
@@ -219,9 +224,9 @@
               "value": "Transkript"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         }
       ]

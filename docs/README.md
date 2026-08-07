@@ -8,7 +8,7 @@ Creator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 ## Profil "IQB Chemie Sek I - Aufgabe"
 
-ID of profile: [https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.json](https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.json)
+ID of profile: [https://w3id.org/iqb/p77/unit/](https://w3id.org/iqb/p77/unit/)
 
 ### Stimulus
 
@@ -16,9 +16,9 @@ ID of profile: [https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.jso
 | :--- | :---: | :--- | :---: |
 | Entwickler:in | Text | Einzeilig, Sprache(n): de   | iqb_author |
 | Für SPF geeignet | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | iqb_spf |
-| Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_phones |
-| Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Einmalauswahl, Zeige nur erste Ebene, Dialogbox, Nummerierung unterdrückt | iqb_competence |
-| Medien (Stimulus) | [Vokabular](https://w3id.org/iqb/v29/me/) | url: 'https://w3id.org/iqb/v29/me/', Mehrfachauswahl, Dialogbox | iqb_media |
+| Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: '[https://w3id.org/iqb/v24/kh/](https://w3id.org/iqb/v24/kh/)', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_phones |
+| Kompetenzbereich | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: '[https://w3id.org/iqb/v41/k1/](https://w3id.org/iqb/v41/k1/)', Einmalauswahl, Zeige nur erste Ebene, Dialogbox, Nummerierung unterdrückt | iqb_competence |
+| Medien (Stimulus) | [Vokabular](https://w3id.org/iqb/v29/me/) | url: '[https://w3id.org/iqb/v29/me/](https://w3id.org/iqb/v29/me/)', Mehrfachauswahl, Dialogbox | iqb_media |
 | Angaben zum Urtext und zu Inspirationsquellen | Text | Mehrzeilig, Sprache(n): de   | iqb_additional_info |
 | Stimuluszeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
 | Aufgabenzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
@@ -29,7 +29,7 @@ ID of profile: [https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.jso
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
-| Art der Quelle(n) | [Vokabular](https://w3id.org/iqb/v28/aq/) | url: 'https://w3id.org/iqb/v28/aq/', Einmalauswahl, Dialogbox | iqb_type_source |
+| Art der Quelle(n) | [Vokabular](https://w3id.org/iqb/v28/aq/) | url: '[https://w3id.org/iqb/v28/aq/](https://w3id.org/iqb/v28/aq/)', Einmalauswahl, Dialogbox | iqb_type_source |
 | Vollständige Quellenangabe (Text) | Text | Mehrzeilig, Sprache(n): de   | iqb_copyright |
 
 ### Hörsequenz/Video Stimulus
@@ -40,16 +40,16 @@ ID of profile: [https://raw.githubusercontent.com/iqb-vocabs/p77/master/unit.jso
 
 ## Profil "IQB Chemie Sek I - Item"
 
-ID of profile: [https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.json](https://raw.githubusercontent.com/iqb-vocabs/p77/master/item.json)
+ID of profile: [https://w3id.org/iqb/p77/item/](https://w3id.org/iqb/p77/item/)
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | PSE erforderlich | Ja/Nein | Text für WAHR: ja, Text für FALSCH: nein | iqb_pse |
-| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ns/) | url: 'https://w3id.org/iqb/v27/ns/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_item_format |
-| ESNaS kognitiver Prozess | [Vokabular](https://w3id.org/iqb/v29/ep/) | url: 'https://w3id.org/iqb/v29/ep/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_esnas_process |
-| ESNaS Komplexität | [Vokabular](https://w3id.org/iqb/v29/ek/) | url: 'https://w3id.org/iqb/v29/ek/', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_esnas_complexity |
-| Bildungsstandard MSA | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: 'https://w3id.org/iqb/v41/k1/', Mehrfachauswahl, Dialogbox | iqb_standards_msa |
-| Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: 'https://w3id.org/iqb/v41/i1/', Mehrfachauswahl, Dialogbox | iqb_content_aspect |
+| Itemformat | [Vokabular](https://w3id.org/iqb/v27/ns/) | url: '[https://w3id.org/iqb/v27/ns/](https://w3id.org/iqb/v27/ns/)', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_item_format |
+| ESNaS kognitiver Prozess | [Vokabular](https://w3id.org/iqb/v29/ep/) | url: '[https://w3id.org/iqb/v29/ep/](https://w3id.org/iqb/v29/ep/)', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_esnas_process |
+| ESNaS Komplexität | [Vokabular](https://w3id.org/iqb/v29/ek/) | url: '[https://w3id.org/iqb/v29/ek/](https://w3id.org/iqb/v29/ek/)', Einmalauswahl, Dialogbox, Nummerierung unterdrückt | iqb_esnas_complexity |
+| Bildungsstandard MSA | [Vokabular](https://w3id.org/iqb/v41/k1/) | url: '[https://w3id.org/iqb/v41/k1/](https://w3id.org/iqb/v41/k1/)', Mehrfachauswahl, Dialogbox | iqb_standards_msa |
+| Verbindlicher inhaltlicher Aspekt | [Vokabular](https://w3id.org/iqb/v41/i1/) | url: '[https://w3id.org/iqb/v41/i1/](https://w3id.org/iqb/v41/i1/)', Mehrfachauswahl, Dialogbox | iqb_content_aspect |
 | Itemzeit | Zahl | Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_item |
-| Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: 'https://w3id.org/iqb/v27/ti/', Mehrfachauswahl, Dialogbox | iqb_itemtech |
+| Technische Besonderheiten der Antwortoptionen | [Vokabular](https://w3id.org/iqb/v27/ti/) | url: '[https://w3id.org/iqb/v27/ti/](https://w3id.org/iqb/v27/ti/)', Mehrfachauswahl, Dialogbox | iqb_itemtech |
 
